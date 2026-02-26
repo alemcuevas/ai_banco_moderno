@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoBank — Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">◆</span> NeoBank
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="inversiones.html">Inversiones</a></li>
+                <li><a href="tarjetas.html">Tarjetas</a></li>
+                <li><a href="app.html">App Móvil</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+                <li><a href="contacto.html" class="nav-active">Contacto</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#" class="btn btn-outline">Iniciar Sesión</a>
+                <a href="#" class="btn btn-primary">Abrir Cuenta</a>
+            </div>
+            <button class="mobile-toggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== CONTACTO ========== -->
+    <section class="contact page-section-top" id="contacto">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <span class="section-tag">Contacto</span>
+                <h2>¿Tienes <span class="gradient-text">preguntas?</span></h2>
+                <p>Nuestro equipo está listo para ayudarte en lo que necesites. Contáctanos por cualquiera de nuestros canales.</p>
+                <div class="contact-channels">
+                    <div class="contact-channel">
+                        <span class="channel-icon">📧</span>
+                        <div>
+                            <strong>Email</strong>
+                            <span>soporte@neobank.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-channel">
+                        <span class="channel-icon">📱</span>
+                        <div>
+                            <strong>Teléfono</strong>
+                            <span>+52 (55) 1234-5678</span>
+                        </div>
+                    </div>
+                    <div class="contact-channel">
+                        <span class="channel-icon">💬</span>
+                        <div>
+                            <strong>Chat en vivo</strong>
+                            <span>Disponible 24/7</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" placeholder="Tu nombre completo">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="tu@email.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <select id="subject">
+                            <option value="">Selecciona un tema</option>
+                            <option>Abrir una cuenta</option>
+                            <option>Soporte técnico</option>
+                            <option>Tarjetas y productos</option>
+                            <option>Inversiones</option>
+                            <option>Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" rows="4" placeholder="¿En qué podemos ayudarte?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">◆</span> NeoBank
+                    </a>
+                    <p>El banco digital del futuro. Simplificamos tus finanzas para que tú te enfoques en lo que importa.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">𝕏</a>
+                        <a href="#" class="social-link">in</a>
+                        <a href="#" class="social-link">ig</a>
+                        <a href="#" class="social-link">fb</a>
+                    </div>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Productos</h4>
+                    <ul>
+                        <li><a href="#">Cuenta Digital</a></li>
+                        <li><a href="tarjetas.html">Tarjetas</a></li>
+                        <li><a href="inversiones.html">Inversiones</a></li>
+                        <li><a href="#">Créditos</a></li>
+                        <li><a href="#">Seguros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Carreras</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Prensa</a></li>
+                        <li><a href="#">Alianzas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Regulación</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NeoBank. Todos los derechos reservados.</p>
+                <p>Institución regulada por CNBV. Tu dinero está protegido por el IPAB.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
