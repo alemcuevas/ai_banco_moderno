@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeoBank — Banco Digital Moderno</title>
+    <title>NeoBank — Servicios</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
@@ -16,8 +16,8 @@
                 <span class="logo-icon">◆</span> NeoBank
             </a>
             <ul class="nav-links">
-                <li><a href="index.html" class="nav-active">Inicio</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html" class="nav-active">Servicios</a></li>
                 <li><a href="inversiones.html">Inversiones</a></li>
                 <li><a href="tarjetas.html">Tarjetas</a></li>
                 <li><a href="app.html">App Móvil</a></li>
@@ -36,90 +36,63 @@
         </div>
     </nav>
 
-    <!-- ========== HERO ========== -->
-    <section class="hero" id="inicio">
-        <div class="hero-bg-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-        </div>
-        <div class="container hero-container">
-            <div class="hero-content">
-                <span class="hero-badge">🚀 El futuro de la banca ya llegó</span>
-                <h1>Tu dinero, <span class="gradient-text">sin límites.</span></h1>
-                <p class="hero-description">
-                    Gestiona tus finanzas de manera inteligente con nuestra plataforma 100% digital. 
-                    Sin comisiones ocultas, sin filas, sin complicaciones.
-                </p>
-                <div class="hero-actions">
-                    <a href="#" class="btn btn-primary btn-lg">Crear Cuenta Gratis</a>
-                    <a href="#" class="btn btn-ghost btn-lg">
-                        <span class="play-icon">▶</span> Ver Demo
-                    </a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <span class="stat-number">2M+</span>
-                        <span class="stat-label">Usuarios activos</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">$5B+</span>
-                        <span class="stat-label">Transacciones</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">99.9%</span>
-                        <span class="stat-label">Disponibilidad</span>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="card-preview">
-                    <div class="credit-card">
-                        <div class="card-chip"></div>
-                        <div class="card-contactless">))))</div>
-                        <div class="card-number">•••• •••• •••• 4589</div>
-                        <div class="card-details">
-                            <div>
-                                <span class="card-label">TITULAR</span>
-                                <span class="card-value">ALEJANDRO M.</span>
-                            </div>
-                            <div>
-                                <span class="card-label">VÁLIDA HASTA</span>
-                                <span class="card-value">12/28</span>
-                            </div>
-                        </div>
-                        <div class="card-logo">NeoBank</div>
-                    </div>
-                    <div class="floating-notification notif-1">
-                        <span class="notif-icon notif-green">✓</span>
-                        <div>
-                            <strong>Transferencia recibida</strong>
-                            <span>+$2,500.00 MXN</span>
-                        </div>
-                    </div>
-                    <div class="floating-notification notif-2">
-                        <span class="notif-icon notif-blue">↗</span>
-                        <div>
-                            <strong>Inversión creció</strong>
-                            <span>+12.4% este mes</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========== MARQUEE / PARTNERS ========== -->
-    <section class="partners">
+    <!-- ========== SERVICIOS ========== -->
+    <section class="services page-section-top" id="servicios">
         <div class="container">
-            <p class="partners-label">Respaldados por las mejores instituciones</p>
-            <div class="partners-logos">
-                <span class="partner-logo">VISA</span>
-                <span class="partner-logo">Mastercard</span>
-                <span class="partner-logo">SWIFT</span>
-                <span class="partner-logo">CNBV</span>
-                <span class="partner-logo">IPAB</span>
-                <span class="partner-logo">Bloomberg</span>
+            <div class="section-header">
+                <span class="section-tag">Servicios</span>
+                <h2>Todo lo que necesitas en <span class="gradient-text">un solo lugar</span></h2>
+                <p>Descubre nuestras soluciones financieras diseñadas para simplificar tu vida.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon icon-purple">
+                        <span>💳</span>
+                    </div>
+                    <h3>Tarjetas sin comisiones</h3>
+                    <p>Tarjetas de débito y crédito sin anualidad ni comisiones ocultas. Cashback en todas tus compras.</p>
+                    <a href="tarjetas.html" class="service-link">Conocer más →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon icon-blue">
+                        <span>📊</span>
+                    </div>
+                    <h3>Inversiones inteligentes</h3>
+                    <p>Haz crecer tu dinero con portafolios diversificados y asesoría financiera impulsada por IA.</p>
+                    <a href="inversiones.html" class="service-link">Conocer más →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon icon-green">
+                        <span>⚡</span>
+                    </div>
+                    <h3>Transferencias instantáneas</h3>
+                    <p>Envía y recibe dinero al instante, sin costo y las 24 horas del día, los 7 días de la semana.</p>
+                    <a href="#" class="service-link">Conocer más →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon icon-orange">
+                        <span>🔒</span>
+                    </div>
+                    <h3>Seguridad de nivel bancario</h3>
+                    <p>Protección con encriptación de grado militar, autenticación biométrica y monitoreo 24/7.</p>
+                    <a href="#" class="service-link">Conocer más →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon icon-pink">
+                        <span>🌍</span>
+                    </div>
+                    <h3>Sin fronteras</h3>
+                    <p>Opera en más de 150 países con el mejor tipo de cambio y sin comisiones internacionales.</p>
+                    <a href="#" class="service-link">Conocer más →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon icon-teal">
+                        <span>🤖</span>
+                    </div>
+                    <h3>Asistente financiero IA</h3>
+                    <p>Recibe recomendaciones personalizadas y automatiza tus ahorros con inteligencia artificial.</p>
+                    <a href="#" class="service-link">Conocer más →</a>
+                </div>
             </div>
         </div>
     </section>

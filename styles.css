@@ -284,6 +284,20 @@ img {
     width: 100%;
 }
 
+.nav-links a.nav-active {
+    color: var(--white);
+}
+
+.nav-links a.nav-active::after {
+    width: 100%;
+    background: var(--gradient-primary);
+}
+
+/* ---------- Page Section Top Spacing ---------- */
+.page-section-top {
+    padding-top: 140px;
+}
+
 .nav-actions {
     display: flex;
     gap: 12px;
